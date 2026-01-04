@@ -3,6 +3,11 @@
             margin-top: 0px;
             margin-bottom: 0px;
         }
-body{
-    margin: 0;
+body {
+  margin: 0;
+  padding-top: 80px;
+  background-color: rgb(250, 250, 250);
+  font-family: Roboto, Arial;
+  padding-left: 88px;
+    padding-right: 22px;
 }
