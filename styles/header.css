@@ -152,5 +152,8 @@
   .right-section {
     gap: 8px;
   }
-  
+  .left-section .hamburger-menu{
+    margin-left: 3px;
+
+  }
 }
