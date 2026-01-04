@@ -11,3 +11,10 @@ body {
   padding-left: 88px;
     padding-right: 22px;
 }
+.video-options:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 8px rgba(171, 162, 162, 0.25);
+  transition: 0.4s ease-in-out;
+  border-radius: 7px;
+}
