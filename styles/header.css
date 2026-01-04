@@ -1,0 +1,149 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: white;
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.hamburger-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;  
+}
+.youtube-logo{
+    height: 20px;
+}
+.center-section{
+ 
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.search-icon{
+    height: 25px;
+}
+.search-button{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(245,245,245);
+    border-color: rgb(192,192,192);
+    border-style: solid;
+    border-width: 1px;
+    margin-left: -1px;
+    margin-right: 10px;
+    position: relative;
+}
+.search-button,.voice-button,.upload,.apps,.upload-button,.apps-button,.notifications-button,.profile-picture-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button .tooltip, .voice-button .tooltip, .upload-button .tooltip, .apps-button .tooltip, .notifications-button .tooltip, .profile-picture-container .tooltip{
+    position:absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-button:hover .tooltip, .voice-button:hover .tooltip, .upload-button:hover .tooltip, .apps-button:hover .tooltip, .notifications-button:hover .tooltip, .profile-picture-container:hover .tooltip{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.Search{
+    flex: 1;
+    height: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(192,192,192);
+    font-size: 16px;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 2px 3px rgba(0,0,0,.03);
+    width: 0;
+}
+.Search::placeholder{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.voice-search-icon{
+    height: 20px;
+}
+.voice-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240,240,240);
+}
+.right-section{
+  
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 190px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.upload{
+    height: 24px;   
+}
+.apps{
+    height: 24px; 
+}
+.notifications{
+    height: 24px; 
+}
+.profile-picture{
+    height: 32px;
+    border-radius: 16px;
+}
+.notification-count{
+    position: absolute;
+                background-color: rgb(204, 0, 0);
+            color: white;
+            font-size: 12px;
+            border-style: solid;
+            border-width: 1px;
+            border-image-repeat: stretch;
+            top: -2px;
+            right:  -5px;
+            padding-left: 5px;
+            padding-bottom: 1.5px;
+            padding-right: 5px;
+            padding-top: 1.5px;
+            font-family: roboto,arial;
+            border-radius: 50%;
+
+}
+@media (max-width: 600px) {
+    
+}
